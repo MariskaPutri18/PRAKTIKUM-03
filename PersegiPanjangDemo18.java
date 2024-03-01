@@ -14,10 +14,12 @@ public class PersegiPanjangDemo18 {
             arrayOfPersegiPanjang[i].lebar = sc.nextInt();
         }
 
-        for (int i = 0; i < 3; i++) {
-            System.out.print("Persegi Panjang ke-" + (i + 1) + ". ");
-            arrayOfPersegiPanjang[i].cetakInfo();
+        for (int i =0; i<3; i++){
+            System.out.println("Persegi Panjang ke-" + (i + 1)+ ", panjang:" + arrayOfPersegiPanjang[i].panjang + ", lebar: " +arrayOfPersegiPanjang[i].lebar); 
         }
+
+        PersegiPanjang18[] myArrayOfPersegiPanjang = new PersegiPanjang18[100]; 
+        myArrayOfPersegiPanjang[5].panjang = 20;
     }
 }
 
